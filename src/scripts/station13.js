@@ -1,4 +1,12 @@
 function changeBackgroundColor(e) {
-  // ここに背景色を変える処理を書く。
+  const textElement = document.getElementById("text");
 
+  // チェックボックスの状態によって背景色を変更
+  if (e.target.checked) {
+    // トグルボタンがオンのときの処理
+    textElement.style.backgroundColor = "red";
+  } else {
+    // トグルボタンがオフのときの処理
+    textElement.style.backgroundColor = "";
+  }
 }
