@@ -1,0 +1,14 @@
+/* station6.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+article {
+  margin: 20px; /* 任意のマージンを指定 */
+}
+
+.custom-section {
+  width: 600px;
+  margin-bottom: 50px;
+}
